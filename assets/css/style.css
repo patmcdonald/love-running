@@ -5,20 +5,22 @@
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    
+
 }
 
 /* headings and logo */
 
-h1,h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;  
+    color: #252525;
 }
 
 #logo {
@@ -33,7 +35,8 @@ h1,h2 {
 }
 
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px
 }
 
@@ -51,6 +54,7 @@ h1,h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -65,7 +69,8 @@ h1,h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -80,13 +85,14 @@ h1,h2 {
 
 /* creates zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
-    
+
 }
 
 #cover-text {
@@ -133,7 +139,7 @@ h1,h2 {
 }
 
 hr {
-    border-top:  1px solid #3a3a3a;
+    border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
 }
@@ -154,7 +160,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 { 
+.right-about-heading h2 {
     text-align: right;
 }
 
@@ -193,6 +199,7 @@ hr {
     height: 100%;
     overflow: hidden;
 }
+
 #times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -214,10 +221,10 @@ footer {
 }
 
 .social-networks {
-    text-align: center;   
+    text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -237,14 +244,14 @@ footer {
     column-gap: 0px;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
 /* Media queries */
 
 /* For larger to medium screens sized from 1200px wide and down */
-@media screen and  (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -257,7 +264,8 @@ footer {
 
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
